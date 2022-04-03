@@ -1,0 +1,586 @@
+
+.peyk-section {
+    /*height: 100vh;*/
+    display: flex;
+    align-content: center;
+}
+
+.peyk-title-sectionone {
+    color: #4BD3EF;
+    font-family: BariolBold;
+    font-size: 60px;
+    padding-top: 6rem;
+}
+
+.peyk-subtitle-sectionone {
+    color: #29455B;
+    font-family: BariolBold;
+    font-size: 20px;
+}
+
+.peyk-text-sectionone {
+    color: #29455B;
+    font-size: 18px;
+}
+
+input#business-mobile-number {
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+}
+
+.btn-sectionone {
+    background-color: #4BD3EF;
+    width: 100%;
+    color: white;
+    box-shadow: none;
+    padding: 10px 0px;
+}
+
+.btn-sectionone:hover, .btn-sectionone:focus {
+    background-color: #00bde4;
+    color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+#phone {
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#phone:focus {
+    outline: none;
+}
+
+.iti.iti--allow-dropdown {
+    width: 100%;
+}
+
+.sectionone-label {
+    color: #29455B;
+    height:0px;
+}
+
+.sectionone-label a {
+    text-decoration: none;
+    color: #4BD3EF;
+}
+
+.form-check-input:checked {
+    background-color: #4BD3EF;
+    border-color: #4BD3EF;
+}
+
+input#inlineCheckbox1 {
+    margin-top: 4px;
+    box-shadow: none;
+}
+
+.iti__selected-flag {
+    border: none;
+    outline: none;
+}
+
+.sectionone-image-div img {
+    max-height: 585px;
+}
+
+.hide {
+    display: none;
+}
+
+.row-height {
+    height: 100%;
+}
+.sms-title{
+    font-size: 2rem;
+    color: var(--darkblue);
+}
+.sms-text{
+    color: var(--darkblue);
+}
+.sms-btn{
+    box-shadow: none;
+    color: var(--blue);
+    outline: none;
+    padding: 20px 0px;
+}
+.sms-d-none{
+    display: none;
+    opacity: 0;
+}
+.sms-d-block{
+    display: block;
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.box-display{
+    display: none;
+    opacity: 0;
+}
+/* ************************************** section1 *******************************************/
+/* ************************************** section2 *******************************************/
+.peyk_section_becompeyker {
+    background-image: url("../image/becompeyker/back.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section_becompeyker_title {
+    color: white;
+    font-family: BariolBold;
+    font-size: 35px;
+}
+
+.section_becompeyker_text {
+    color: white;
+    font-size: 25px;
+}
+
+/* ************************************** section2 *******************************************/
+/* ************************************** section3 *******************************************/
+.section-title {
+    color: #29455B;
+    font-size: 53px;
+    font-family: BariolBold;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.cardsection {
+    border-radius: 25px;
+    border: 1px solid #E8E8E833;
+    height: 100%;
+    background: white;
+}
+
+.card-subtitle-section_benefit {
+    color: #29455B;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: auto !important;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.swiper-container {
+    padding: 30px 0px !important;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    display: none;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .10) !important;
+}
+
+/* ************************************** section3 *******************************************/
+/* ************************************** section4 *******************************************/
+.section_collective {
+    background: #4BD3EF;
+}
+
+.title-collective {
+    color: #29455B;
+    font-size: 45px;
+    font-family: BariolBold;
+}
+
+.border-div-collective {
+    border-left: 4px solid #29455B;
+}
+
+.text-collective {
+    padding: 0px 60px 0px 20px;
+}
+
+.collective_margin_top {
+    margin-top: 5rem;
+}
+
+collective_p {
+    color: #29455B;
+}
+
+.padding-collective {
+    padding-right: 10rem;
+}
+
+/* ************************************** section4 *******************************************/
+/* ************************************** section5 *******************************************/
+.section_you_need_title {
+    color: #29455B;
+    font-family: BariolBold;
+    font-size: 30px;
+}
+
+.section_you_need_text {
+    color: #29455B;
+    font-size: 18px;
+}
+
+/* ************************************** section5 *******************************************/
+/* ************************************** section6 *******************************************/
+.section-peyker {
+    background-image: url("../image/becompeyker/bgpeyker.png");
+    background-color: #E9F6FE;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.title-section-peyker {
+    color: #4BD3EF;
+    font-size: 25px;
+    font-family: BariolBold;
+}
+
+.card-text-section-peyker {
+    color: #29455B;
+    font-size: 20px;
+}
+
+/* ************************************** section6 *******************************************/
+/* ************************************** section7 *******************************************/
+.partners {
+    background: #29455B;
+}
+
+.partners-title {
+    font-family: BariolBold;
+    color: white;
+    font-size: 53px;
+}
+
+.partners-info {
+    color: #E9F6FE;
+    text-decoration: none;
+}
+
+.swiperslider .swiper-slide {
+    background: transparent;
+}
+
+/* ************************************** section7 *******************************************/
+/* ************************************** section8 *******************************************/
+.accordion-button:not(.collapsed) {
+    color: #29455B;
+    background-color: #e7f1ff00;
+    box-shadow: unset;
+    font-family: BariolBold;
+}
+
+.accordion-button {
+    color: #29455B;
+    font-family: BariolBold;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}
+
+.accordion-item {
+    background-color: #fff0;
+    border: 2px solid #70707017 !important;
+    margin-bottom: 27px;
+    border-radius: 20px !important;
+}
+
+.accordion-button {
+    border-radius: 20px;
+    background-color: #fff0;
+    font-size: 20px;
+}
+
+.accordion-button::after {
+    background-image: url("../image/becompeyker/circlefaq.png") !important;
+    transition: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../image/becompeyker/faqline.png") !important;
+}
+
+.accordion-body strong {
+    color: var(--darkgray);
+    font-size: 20px;
+}
+
+.faq_title {
+    color: #29455B;
+    font-size: 50px;
+    font-family: BariolBold;
+    margin-bottom: 2rem;
+}
+
+/* ************************************** section8 *******************************************/
+/* ************************************** gethelp *******************************************/
+.sectionGetHelp {
+    background-color: #F5F5F5;
+}
+
+.getHelpP1 {
+    color: #989898;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.getHelpP2 {
+    color: #29455B;
+    font-family: BariolBold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.btn-getHelp {
+    border: 3px solid #2EC8E8;
+    border-radius: 57px;
+    background: #FFFFFF;
+    width: 80%;
+    display: table;
+    margin: auto;
+}
+
+.display-gethelpone {
+    display: none !important;
+}
+
+.display-gethelp {
+    display: block !important;
+}
+
+/* ************************************** gethelp *******************************************/
+/* ************************************** responsive *******************************************/
+@media only screen and (min-width: 300px) and (max-width: 567px) {
+    .peyk-title-sectionone, .section_benefit-title {
+        font-size: 30px;
+    }
+
+    .section_becompeyker_text {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .sectionone-image-div img {
+        max-height: 350px;
+        margin: 20px;
+    }
+
+    .peyk-section {
+        padding: 0px 25px;
+        height: auto;
+    }
+
+    .peyk-section {
+        height: auto;
+    }
+
+    .peyk_section_becompeyker {
+        padding: 0px 1rem;
+    }
+
+    .peyk_section_becompeyker, .sectionfive {
+        padding: 0px 15px;
+    }
+
+    .section_you_need_title {
+        font-size: 18px;
+    }
+
+    .you_need_image {
+        width: 20px !important;
+    }
+
+    .section_you_need_title {
+        font-size: 20px;
+    }
+
+    .sectiontwo-title, .title-collective {
+        font-size: 25px;
+    }
+
+    .collective-display-mode {
+        display: none !important;
+    }
+
+    .collactive-logo {
+        margin-top: 3rem;
+    }
+
+    .title-collective {
+        padding: 0px 1rem;
+    }
+
+    .padding-collective {
+        padding-right: 0rem;
+    }
+
+    .col-padding {
+        padding: 0px 1rem !important;
+    }
+
+    .display-gethelp {
+        display: none !important;
+    }
+
+    .display-gethelpone {
+        display: block;
+    }
+
+    .getHelpP1 {
+        font-size: 16px;
+        margin: 25px 0px;
+    }
+
+    .text-collective {
+        padding: 0px 30px 0px 20px;
+    }
+
+    .border-div-collective {
+        margin: 14px !important;
+    }
+
+    .cardVehicle {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+    .peyk-title-sectionone {
+        font-size: 35px;
+    }
+
+    .section_becompeyker_text {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .peyk-section {
+        height: auto;
+    }
+
+    .sectionone-image-div img {
+        max-height: 400px;
+        margin: 30px 0px;
+    }
+
+    .you_need_image {
+        width: 20px !important;
+    }
+
+    .collective-display-mode {
+        display: none !important;
+    }
+
+    .display-gethelp {
+        display: none !important;
+    }
+
+    .getHelpP1 {
+        color: #989898;
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .display-gethelpone {
+        display: block !important;
+    }
+
+    .display-gethelp {
+        display: none !important;
+    }
+
+    .cardVehicle {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+    .peyk-title-sectionone {
+        font-size: 35px;
+    }
+
+    .section_becompeyker_text {
+        font-size: 18px;
+    }
+
+    .sectionfive-list-title {
+        font-size: 18px;
+    }
+
+    .you_need_image {
+        width: 30px !important;
+    }
+
+    .section_you_need_title {
+        font-size: 25px;
+    }
+
+    .padding-collective {
+        padding: 0px;
+    }
+
+    .title-collective {
+        font-size: 25px;
+    }
+
+    .display-gethelpone {
+        display: none !important;
+    }
+
+    .display-gethelp {
+        display: block !important;
+    }
+
+    .peyk-section {
+        height: auto;
+        margin: 5rem 0px;
+    }
+
+    .cardVehicle {
+        width: 100%;
+    }
+}

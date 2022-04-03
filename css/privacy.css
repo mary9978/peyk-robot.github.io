@@ -1,0 +1,33 @@
+* {
+    font-family: Bariol;
+}
+.title{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.scrollspy-example{
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.margin-top-style {
+    margin-top: 10rem;
+}
+
+.sub-title{
+    color: var(--darkblue);
+}
+.description{
+    color: var(--darkblue);
+    font-size: 18px;
+    text-align: justify;
+    margin: auto 2rem auto 2rem;
+}
+.list-title{
+    color: var(--blue);
+    font-family: BariolBold;
+}
+.link-style,.link-style:hover{
+    color: var(--blue);
+    text-decoration: none;
+}

@@ -1,0 +1,247 @@
+body {
+    background-color: var(--white);
+}
+/* style section one start */
+.section-one{
+   background: url("../img/peykrobot/background-section-one.png");
+   background-position: bottom;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: var(--white);
+}
+.h3-section-one{
+    font-size: 72px;
+    font-family: BariolBold;
+    color: var(--white);
+    text-align: center;
+}
+.p-section-one{
+    text-align: center;
+    font-size: 28px;
+    font-family:  Bariol;
+    color: var(--white);
+}
+/* style section one end */
+/* style section two fast and reliable start */
+.section-two{
+    height: 500px;
+}
+.title-section-two{
+    font-size: 36px;
+    font-family: BariolBold;
+    color: var(--darkgray-menu-title);
+}
+.figure{
+    background-image: url("../img/peykrobot/Mask\ Group\ 18.png");
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.styled-list ul li::before{
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+    float: left;
+    /* margin-right: -1.5rem; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.styled-list ul li::before{
+    background: url("../img/peykrobot/circlefaq.png");
+    background-size: cover;
+    background-position: center;
+    /* padding: 1rem; */
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.styled-list ul{
+    display: inline-block;
+    list-style: none;
+}
+.styled-span-section-two{
+    font-size: 45px;
+    font-family: BariolBold;
+    color: #2ec8e8;
+}
+.li-title-section-two{
+    font-size: 28px;
+    font-family: Bariol;
+    color: var(--darkgray-menu-title);
+}
+.desc-section-two{
+    font-size: 18px;
+    font-family: Bariol;
+    color: var(--darkgray-menu-title);
+}
+/* style section two end */
+/* style section three start */
+.section-three,.section-five{
+    margin-top: 20px;
+    background: #E9F6FE;
+}
+.h2-why-peyk-robot{
+    text-align: center;
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+    font-size: 45px;
+}
+.card-style{
+    height: 386px;
+    border-radius: 24px;
+    box-shadow: 0 3px 6px solid #29455B1C;
+}
+.imge-card-section-three{
+    width: 200px;
+    height: auto;
+}
+.h4-section-three{
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+    font-size: 28px;
+}
+.desc-section-three{
+    color: var(--darkgray-menu-title);
+    font-family: Bariol;
+    font-size: 18px;
+}
+/* style section three end */
+/* style section four- welcome to world- start*/
+.robot{
+    background: url("../img/peykrobot/Delivery\ Bot.J05.2k.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 999999; */
+    width: 60%;
+}
+.p-section-four{
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+    font-size: 22px;
+}
+/* style section four end*/
+/*style section five - intrested in parentship start*/
+input{
+    border: none;
+    font-size: 18px;
+    color: #8A8A9B;
+    font-family: Bariol;
+    width: 400px;
+    height: 50px;
+}
+input:hover ,input:focus{
+    border: none;
+    outline: none;
+}
+.email-input{
+    width: 90%;
+    border-radius: 10px;
+    background: var(--white);
+}
+.button-send-message{
+    border: none;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    border-radius: 8px;
+}
+.button-send-message:hover,.button-send-message:focus{
+    border: 2px solid var(--blue);
+    color: var(--darkgray-menu-title);
+    background: var(--white);
+    transition: all ease 0.3s;
+}
+.styled-input{
+    background: #FCFCFC;
+    border-radius: 19px;
+}
+.title-section-five{
+    text-align: left;
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+    font-size: 45px;
+}
+.desc-section-five{
+    text-align: left;
+    color: var(--darkgray-menu-title);
+    font-family: Bariol;
+    font-size: 18px;
+}
+/*style section five  end*/
+/* style section seven have question start */
+.title-section-have-question{
+    font-size: 45px;
+    font-family: Bariol;
+    color: var(--darkgray-menu-title);
+}
+.span-section-have-question{
+    font-size: 45px;
+    font-family: Bariol;
+    color: var(--blue);
+}
+.accordion-item {
+    background-color: #e9f6fe;
+    border: 2px solid #70707017 !important;
+    margin-bottom: 27px;
+    border-radius: 20px !important;
+}
+.accordion-item:focus-visible{
+    background: pink;
+    outline: none;
+    border: none;
+}
+.accordion-button {
+    border-radius: 20px;
+    background-color: #fff0;
+    font-size: 24px;
+}
+.accordion-button::after {
+    background-image: url("../img/peykrobot/circlefaq.png") !important ;
+    transition: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/peykrobot/faqline.png") !important;
+}
+
+.accordion-body strong {
+    color: var(--darkgray-menu-title);
+    font-size: 20px;
+}
+/* style section seven have question end */
+/* style section eight - get support start */
+.get-support{
+   background: #F5F5F5;
+}
+.p-get-support-you-need{
+    color: #989898;
+    font-family: Bariol;
+    font-size: 30px;
+}
+.get-help-button{
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+    text-align: left;
+    font-size: 25px;
+    background: var(--white);
+    border: 3px solid #2ec8e8;
+    border-radius: 57px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.get-help-button:hover,.get-help-button:focus{
+    color: var(--white);
+    background: var(--blue);
+    transition: all ease 0.5s;
+    border: 3px solid var(--darkgray-menu-title);
+}
+.p-we-are-to-help{
+    font-size: 32px;
+    color: var(--darkgray-menu-title);
+    font-family: BariolBold;
+}
+/* style section eight - get support end */

@@ -1,0 +1,565 @@
+body {
+    font-family: Bariol;
+}
+
+.head-main {
+    background: #29455B;
+}
+
+.a-style2 {
+    color: white;
+    border: 2px solid #2EC8E8;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.hero-image-in-page {
+    background-image: url("../image/info/bginfo.png");
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.mr-re {
+    margin: 10em 0px 15em 0px;
+}
+
+#res-tex:focus-within {
+    color: #2EC8E8 !important;
+}
+
+.menu-bar>li:hover>[aria-haspopup="true"] {
+    background: #fff0 !important;
+}
+
+.main-link1 {
+    padding: 5px 20px;
+    color: #2EC8E8 !important;
+    transition: background .2s, color .2s;
+    font-size: 25px;
+    font-family: BariolBold;
+}
+
+.main-link2 {
+    color: white !important;
+    font-size: 25px;
+    font-family: BariolBold;
+}
+
+.menu-link[aria-haspopup="true"]::after {
+    content: "\203A";
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1;
+}
+
+.title-heade {
+    font-size: 168px;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.desc-header {
+    font-size: 25px;
+}
+
+.section1-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: BariolBold;
+}
+
+.section1-title:before,
+.section1-title:after {
+    content: '';
+    border-top: 2px solid #2EC8E8;
+    flex: 1 0 20px;
+}
+
+.section1-title {
+    color: #29455B;
+    font-weight: bold;
+    font-size: 74px;
+}
+
+.title-bg {
+    background: #29455B;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: BariolBold;
+    padding: 0px 0.2em;
+    border-radius: 13px;
+}
+
+.desc-size {
+    color: #29455B;
+    font-size: 18px;
+}
+
+.tite2 {
+    color: #29455B;
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.dif-span {
+    background: #2EC8E8;
+    padding: 0.3em;
+    font-weight: bold;
+    font-family: BariolBold;
+    border-radius: 5px;
+}
+
+.link-bg {
+    background: #2CCEAC;
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-family: BariolBold;
+    cursor: pointer;
+}
+.link-bg a {
+    text-decoration: none;
+}
+.desc-section3 {
+    color: #29455B;
+    font-size: 25px;
+}
+
+.num-span {
+    color: #CE1141;
+}
+
+.section3-des1 {
+    color: #29455B;
+    font-size: 23px;
+}
+
+.link1-bg {
+    background: #007CC2;
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 4px;
+}
+
+.link1-bg a {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: BariolBold;
+    text-decoration: none;
+}
+
+.link1-bg a:hover {
+    text-decoration: none;
+}
+
+.section4-bg {
+    background: #29455B;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: BariolBold;
+    border-radius: 13px;
+    margin-top: 1em;
+}
+.tel-link {
+    color: var(--darkblue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section4-desc {
+    color: #29455B;
+    font-size: 19px;
+}
+
+.shadow1 {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(224, 1, 74, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(224, 1, 74, 1);
+    box-shadow: 0px 0px 5px 0px rgba(224, 1, 74, 0.18);
+}
+
+.border-style {
+    border-radius: 42px;
+    padding: 2.5em 5em;
+    margin-top: 6em;
+}
+
+.section5-p {
+    color: #29455B;
+    font-size: 20px;
+}
+
+.def-section5 {
+    color: white;
+    background: #DE0247;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.section5-p1 {
+    color: #29455B;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.span-style1 {
+    color: #29455B;
+    font-size: 21px;
+}
+
+.border-style1 {
+    border-radius: 42px;
+    padding: 2.5em 5em;
+    margin-top: 3em;
+}
+
+.shadow2 {
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(128, 186, 39, 1);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(128, 186, 39, 1);
+    box-shadow: 0px 0px 7px 0px rgba(128, 186, 39, 0.27);
+}
+
+.section6-p {
+    color: #29455B;
+    font-size: 25px;
+}
+
+.section6-title {
+    color: #29455B;
+    font-size: 30px;
+    margin-top: 3em;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.text-6 {
+    color: #29455B;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.desc-6 {
+    color: #29455B;
+    font-size: 25px;
+}
+
+.span6 {
+    color: #89C729;
+}
+
+.a6 {
+    background: #80BA27;
+    padding: 0.5em;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.shadow3 {
+    -webkit-box-shadow: 0px 0px 7px 0px #009DE13D;
+    -moz-box-shadow: 0px 0px 7px 0px #009DE13D;
+    box-shadow: 0px 0px 7px 0px #009DE13D;
+}
+
+.section7-title {
+    color: #29455B;
+    font-size: 30px;
+    margin-top: 1em;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.span7 {
+    background-color: #009DE1;
+    padding: 0.3em;
+    border-radius: 7px;
+}
+
+.a7 {
+    color: #009DE1;
+    font-weight: bold;
+}
+
+.text-7 {
+    color: #29455B;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+.accordion-button:not(.collapsed) {
+    color: #29455B;
+    background-color: #e7f1ff00;
+    box-shadow: unset;
+    font-family: BariolBold;
+}
+
+.accordion-button {
+    color: #29455B;
+    font-family: BariolBold;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}
+
+.accordion-item {
+    background-color: #fff0;
+    border: 2px solid #70707017 !important;
+    margin-bottom: 27px;
+    border-radius: 20px !important;
+}
+
+.accordion-button {
+    border-radius: 20px;
+    background-color: #fff0;
+    font-size: 20px;
+}
+
+.accordion-button::after {
+    background-image: url("../image/becompeyker/circlefaq.png") !important;
+    transition: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../image/becompeyker/faqline.png") !important;
+}
+
+.accordion-body strong {
+    color: #DFE4E8;
+    font-size: 20px;
+}
+
+.faq_title {
+    color: #29455B;
+    font-size: 50px;
+    font-family: BariolBold;
+    margin-bottom: 2rem;
+}
+
+
+.section6-position {
+    right: 0;
+}
+
+.img-size {
+    height: 130px;
+}
+
+.faq-style {
+    color: #29455b;
+    font-weight: bold;
+    font-family: BariolBold;
+    font-size: 4em;
+}
+
+#form1 {
+    padding: 1.3em;
+}
+
+input#fname {
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 25px;
+    border: 3px solid #d3d3d54f;
+}
+
+input#btn1 {
+    position: absolute;
+    right: 3em;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: #68c7ea;
+    border: none;
+    color: white;
+    padding: 0.3em 1em;
+}
+
+.section6 {
+    background-color: #F5F5F5;
+}
+
+.section6-help {
+    color: #29455B;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.a-section6 {
+    border: 3px solid #2EC8E8;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 25px;
+    color: #29455B;
+    font-weight: bold;
+}
+
+.a-section6:hover {
+    color: #29455B;
+    text-decoration: none;
+}
+
+.text-section-6 {
+    color: #989898;
+    font-size: 36px;
+}
+
+.a6:hover {
+    text-decoration: none;
+}
+
+#faq .accordion .card {
+    border: 0.2rem solid #c4c4c438 !important;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .title-bg {
+        font-size: 2em;
+    }
+    .tablet-image {
+        position: absolute;
+    }
+    #faq .accordion .card .card-body {
+        font-size: 0.9rem;
+    }
+    .text-section-6 {
+        font-size: 20px;
+    }
+    .a-section6 {
+        font-size: 16px;
+        padding: 8px 35px;
+    }
+    .section6-help {
+        font-size: 25px;
+    }
+    .border-style1 {
+        padding: 2.5em 2em;
+    }
+    .a6 {
+        padding: 0.3em;
+    }
+    .border-style {
+        padding: 2.5em 2em;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+    .res-img {
+        width: 60% !important;
+        display: table;
+        margin: auto;
+    }
+    .section6-help {
+        font-size: 33px;
+        text-align: center;
+    }
+    .text-section-6 {
+        font-size: 25px;
+    }
+    .style-section6 {
+        display: flex;
+        justify-content: center;
+    }
+    .a-section6 {
+        padding: 5px 50px;
+    }
+    .section1-title {
+        font-size: 40px;
+    }
+    .rw-res {
+        margin-top: 1em !important;
+    }
+    .title-bg {
+        font-size: 2em;
+    }
+    .res-mrgin {
+        margin: auto !important;
+    }
+    .res-mrgin1 {
+        display: table;
+        margin: auto !important;
+    }
+    .section4-bg {
+        font-size: 1.7em;
+        padding: 0.3em;
+    }
+    .border-style {
+        padding: 2.5em 1.2em;
+    }
+    .title-heade {
+        font-size: 75px;
+    }
+    .desc-header {
+        font-size: 16px;
+    }
+    .desc-size {
+        font-size: 16px;
+    }
+    .res-none {
+        display: none;
+    }
+    .span-style1 {
+        font-size: 16px;
+    }
+    .section6-title {
+        margin-top: 0px;
+    }
+    .border-style1 {
+        padding: 2.5em 1em;
+    }
+    .section5-image {
+        display: table;
+        margin: auto auto;
+    }
+    .section6-title {
+        font-size: 20px;
+    }
+    .section6-p {
+        font-size: 20px;
+    }
+    .text-6 {
+        font-size: 16px;
+    }
+    .desc-6 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .a6 {
+        padding-top: 3px;
+    }
+    .text-7 {
+        font-size: 18px;
+    }
+    .display-mode img {
+        display: none;
+    }
+    #faq .accordion .card .card-body {
+        font-size: 1em;
+    }
+
+    .btn-install{width: 80% !important;}
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1600px){
+    #back2Top img {
+        margin-top: 21%!important;
+    }
+}
+#faq .accordion .card .card-header button{
+    padding:2% 0px !important ;
+}

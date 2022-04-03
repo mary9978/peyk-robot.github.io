@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Bariol;
+    font-weight: normal;
+    src: url('../font/site/Bariol_Regular.otf');
+}
+
+@font-face {
+    font-family: BariolBold;
+    font-weight: bold;
+    src: url('../font/site/Bariol_Bold.otf');
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    font-weight: bold;
+    src: url('../font/site/Quicksand-Bold.ttf');
+}
+*{
+    font-family: Bariol;
+}

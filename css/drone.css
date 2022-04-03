@@ -1,0 +1,26 @@
+* {
+    font-family: Bariol;
+}
+.dron-bg{
+    background-image: url("../image/drone/dron-back.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: -2rem;
+}
+
+.text-drone{
+    font-size: 2.5rem;
+}
+.coming-drone {
+    color: var(--blue);
+    font-family: 'BariolBold';
+    font-size: 4.5rem;
+    margin-bottom: 0px;
+    letter-spacing: 30px;
+    text-shadow: 0 0 25px var(--blue);
+}
+@media only screen and (min-width: 320px) and (max-width: 567px) {
+    .coming-drone {
+        font-size:3.5rem !important;
+    }
+}

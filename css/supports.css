@@ -1,0 +1,186 @@
+body {
+    font-family: Bariol;
+}
+.get-p1 {
+
+    color: var(--darkblue);
+    font-size: 35px;
+    margin-top: 5rem;
+    font-family: BariolBold;
+}
+.get-p2 {
+    color: var(--darkgray);
+    font-size: 25px;
+}
+#exampleInput {
+    padding: 2.3% 1%;
+    background: #FCFCFC;
+    border-radius: 15px;
+    border: 3px solid var(--darkgray);
+}
+::placeholder{
+    font-size: 20px;
+}
+.sub-btn {
+    margin-left: auto;
+    display: table;
+    margin-top: -5.8%;
+    margin-right: 1%;
+    padding: 0.5rem 2.2rem;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--blue);
+    color: white;
+    font-family: BariolBold;
+}
+.get-brdr {
+    border-radius: 15px;
+    padding: 8% 0px;
+    border: 3px solid #9393934d;
+}
+.get-a {
+    color: var(--darkblue);
+}
+.get-a:hover {
+    color: var(--darkblue);
+    text-decoration: none;
+}
+.get-w{
+    width: 100%;
+}
+.section3{
+    background-color: #E9F6FE;
+}
+.get-color {
+    color: var(--darkblue);
+    font-family: BariolBold;
+    font-size: 30px;
+}
+.get-brdr1 {
+    border: 1px solid var(--darkgray);
+    border-radius: 15px;
+    padding: 7%;
+}
+.mrg-t {
+    margin-top: 10%;
+}
+.txt-color {
+    color: var(--darkblue);
+    font-family: BariolBold;
+    font-size: 16px;
+}
+.link-p {
+    color: var(--blue);
+    text-decoration: none !important;
+}
+.link-p:hover {
+    color:var(--blue);
+    text-decoration: none;
+}
+.get-ttl-1 {
+    color: var(--blue);
+    font-family: BariolBold;
+    font-size: 20px;
+}
+@media only screen and (min-width: 300px) and (max-width:576px){
+    .cntr-pdng{
+        padding: 0rem 2rem!important;
+        margin-top: 0rem !important;
+    }
+    .cntr-pdng1{
+        padding: 3rem !important;
+    }
+    .get-brdr1{
+        margin-bottom: 5%;
+    }
+    .sub-btn{
+        margin-top: -18%;
+    }
+    #exampleInput {
+        padding: 6.5% 1%;
+    }
+    .get-brdr {
+        margin-bottom: 3%;
+    }
+    .get-w {
+        width: auto;
+        padding: 0% 1rem;
+        margin-top: 0rem !important;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width:1200px){
+    #exampleInput {
+        padding: 4% 1%;
+    }
+    .sub-btn{
+        margin-top: -11%;
+    }
+    .get-ttl-1{
+        font-size: 15px;
+    }
+    .mrg-t {
+        margin-top: 10%;
+        padding: 0px;
+    }
+    .txt-color {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1441px) {
+    #exampleInput {
+        padding: 1.7% 1%;
+    }
+    .sub-btn {
+        margin-left: auto;
+        display: table;
+        margin-top: -4.2%;
+        margin-right: 1%;
+        padding: 0.5rem 2.2rem;
+        border: none;
+        border-radius: 25px;
+        background-color: var(--blue);
+        color: white;
+        font-family: BariolBold;
+    }
+}
+
+
+/* ------------------------------------------------ Contact Us Form ------------------------------------------------ */
+.modal-body h4 {
+    color: var(--darkblue);
+    font-size: 16px;
+    padding-bottom: 3%;
+}
+
+.modal-title {
+    color:var(--darkblue);
+    font-family: BariolBold;
+}
+
+.modal-body p {
+    color: var(--darkblue);
+    padding-bottom: 3%;
+}
+
+.custom-select {    border: 2px solid #f2f3f5;}
+
+input.wpcf7-form-control.wpcf7-submit.btn.btn-primary {
+    width: 100%;
+    background: var(--blue);
+    border: none;
+}
+/* single support */
+.single-support-title{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.single-accordion{
+    background: var(--blue);
+    color: var(--darkblue);
+}
+.single-accordion:focus{
+    background: var(--blue);
+    box-shadow: none;
+    outline: none;
+    color: var(--darkblue);
+}

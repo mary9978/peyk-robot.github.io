@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+/*:root {*/
+/*    --line-border-fill: #4BD3EF;*/
+/*    --line-border-empty: #DFDFDF;*/
+/*}*/
+html{
+    margin-top: 0px !important;
+}
+nav#nav {
+    display: none;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    transform: rotate(
+            90deg
+    );
+    padding: 64% 0%;
+    right: 50px;
+}
+.parsley-type{
+    color: red;
+    list-style: none;
+}
+ul#parsley-id-multiple-old li {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left:-3rem;
+}
+ul#parsley-id-multiple-criminal li {
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: -3rem;
+}
+.progress-container::before {
+    content: "";
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.progress {
+    background-color: #4BD3EF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle {
+    background-color: #C8C8C8;
+    color: #29455B;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #C8C8C8;
+    transition: 0.4s ease;
+    transform: rotate(-90deg);
+    font-family: BariolBold;
+}
+
+.circle.active {
+    border-color: #4BD3EF;
+    background-color: #4BD3EF;
+    color: white;
+    font-family: BariolBold;
+}
+
+.btnNext {
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btnNext:active {
+    transform: scale(0.98);
+}
+
+.btnNext:focus {
+    outline: 0;
+}
+
+.btnNext:disabled {
+    cursor: not-allowed;
+}
+
+#next {
+    background: #4BD3EF;
+    color: white;
+    padding: 10px;
+}
+
+#next:hover {
+    background: #22aecb;
+}
+
+button#prev {
+    background: #29455B;
+    color: white;
+    padding: 10px;
+}
+
+button#prevReg {
+    background: #29455B;
+    color: white;
+    padding: 10px;
+}
+
+button#prev:hover {
+    background: #1d394f;
+}
+
+.bgBar {
+    background: #29455B;
+    z-index: 0;
+    min-height: 100vh;
+    /*overflow-y: scroll;*/
+}
+
+h4#Scooter_car_title\" {
+    color: #29455B;
+}
+
+.barP {
+    position: absolute;
+    top: 0rem;
+    transform: rotate(
+            0deg
+    );
+    left: 50px;
+    width: 165px;
+    color: white;
+}
+
+ul#parsley-id-multiple-old {
+    /*position: absolute !important;*/
+    text-align: end !important;
+    top: 40px !important;
+}
+
+li.parsley-required {
+    margin: 0px 9px;
+    text-align: left;
+    color: red;
+    list-style: none;
+}
+
+.parsley-errors-list{
+    padding: 5px 0px !important;
+}
+/*********************** section1 ***************************************/
+.sectionStyle {
+    margin: 8rem 0rem 0px 0rem;
+}
+
+.sectionStyleBtn {
+    margin: 0rem 0rem 0px 0rem;
+}
+
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+    opacity: 1;
+    transform: scale(.85) translateY(-0.8rem) translateX(1.15rem);
+    background: #ffffff75;
+    color: #464646;
+    padding: 0rem .75rem;
+    height: 19px;
+
+}
+
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.textStyle {
+    color: #29455B;
+    font-size: 18px;
+}
+
+.inputStyle {
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+}
+
+.inputStyle:focus {
+    border: 1px solid #D8D8D8;
+    box-shadow: unset !important;
+}
+
+/* validation style ********************************/
+.invalidData {
+    border: 1px solid #FF5353;
+    border-radius: 6px;
+    color: #FF5353;
+}
+
+.lbl {
+    color: #FF5353 !important;
+}
+
+.input-page-4 {
+    margin: 0px !important;
+}
+
+/*********************** section1 ***************************************/
+/*********************** section2 ***************************************/
+.input-check:checked {
+    background-image: url("../image/becompeyker/tick.svg") !important;
+    background-color: white;
+    box-shadow: unset;
+}
+
+.input-check[type=radio] {
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+}
+
+/*********************** section2 ***************************************/
+/*********************** section3 ***************************************/
+.formSelectInfo {
+    padding: 6px;
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px;
+    color: #464646;
+}
+
+/*.scrollStyle{*/
+/*    height: 100vh;*/
+/*    overflow-y: scroll;*/
+/*}*/
+.formSelectInfo:focus {
+    border: 1px solid #D8D8D8 !important;
+    box-shadow: none;
+}
+
+.form-check-input:focus, .input-check:checked {
+    box-shadow: none;
+    border: 1px solid #D8D8D8;
+}
+
+.linkStyle, .linkStyle {
+    color: #4BD3EF;
+    text-decoration: none;
+}
+
+ul#parsley-id-multiple-own, ul#parsley-id-multiple-criminal {
+    position: absolute !important;
+    text-align: end !important;
+    top: 60% !important;
+}
+
+.linkStyle:hover {
+    color: #64bed1 !important;
+}
+textarea#exampleFormControlTextarea1 {
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px !important;
+    box-shadow: none;
+}
+/*********************** section3 ***************************************/
+/*********************** section4 ***************************************/
+.file-upload {
+    position: absolute;
+    left: -9999px;
+}
+
+.file-placeholder {
+    position: relative;
+    cursor: pointer;
+}
+
+.file-placeholder label {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    cursor: pointer;;
+}
+
+.file-placeholder input[type=file] {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+
+.file-placeholder .file-browse {
+    width: 100%;
+    height: 40px;
+}
+
+.file-placeholder .file-browse .file-browse-txt {
+    display: block;
+    float: left;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    height: 40px;
+}
+
+.file-placeholder .file-browse .file-browse-txt.hasValue {
+    background-color: #ededed;
+}
+
+.file-placeholder .file-browse .browse {
+    background-color: #42b5e8;
+    color: #FFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px !important;
+}
+
+.labelStyle {
+    font-size: 15px;
+    color: #464646;
+}
+
+.labelStyleSpan {
+    font-size: 15px;
+    color: #4BD3EF;
+}
+
+.inputNational {
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+}
+.progressStyleDbs {
+    width: 100% !important;
+    height: 10px !important;
+    bottom: 88px !important;
+    top: -2.3rem !important;
+}
+div#dbs_image {
+    margin-top: 5rem;
+}
+/* *******************************  section4 ***************************************/
+/* *******************************  section5 ***************************************/
+.infoText {
+    color: white;
+    background-color: #4BD3EF;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+.btnRegister {
+    background-color: #4BEF8D;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.btnRegister:hover, .btnRegister:focus {
+    color: white;
+    box-shadow: none;
+}
+
+.progressStyle {
+    width: 100% !important;
+    height: 10px !important;
+    bottom: 88px !important;
+    top: -4.3rem !important;
+}
+
+/*********************** section5 ***************************************/
+/*********************** responsive ***************************************/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .progress-container {
+        transform-origin: unset;
+        transform: unset;
+        margin-top: 50px;
+        padding: 0px;
+        right: 0px;
+    }
+
+    .circle {
+        transform: unset;
+        position: relative;
+    }
+
+    .barP {
+        position: absolute;
+        top: 0rem;
+        transform: unset;
+        color: white;
+        margin-top: 50px;
+        width: auto;
+        left: 0;
+        font-size: 13px;
+    }
+
+    .bgBar {
+        min-height: 100%;
+        padding: 6% 6% 16% 6%;
+    }
+    .file-placeholder .file-browse .browse{
+        margin-top: 3px;
+    }
+    .progressStyle {
+        width: 250px !important;
+    }
+    .file-placeholder input[type=file]{
+        width: 350px !important;
+    }
+
+}
+
+/*@media only screen and (min-width: 768px) and (max-width: 1024px) {*/
+/*    .sectionStyle {*/
+/*        margin: 8rem 0rem 0px 0rem;*/
+/*    }*/
+/*}*/
+
+/*********************** responsive ***************************************/

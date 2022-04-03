@@ -1,0 +1,143 @@
+* {
+    font-family: Bariol;
+}
+.section-one {
+    background-image: url("../image/shareimage/backgroundimage.png");
+    background-size: cover;
+}
+.title-career{
+    color: var(--darkblue);
+    font-family: BariolBold;
+
+}
+.career-hr{
+    width: 15%;
+    display: table;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid var(--blue);
+    opacity: 1;
+}
+.career-text-section-one{
+    color: var(--darkblue);
+    line-height: 40px;
+}
+#order-res-one{
+    order: 2;
+}
+#order-res-two{
+    order: 1;
+}
+.career-image-one {
+    margin-top: -40%;
+}
+
+/********************************  section one  *************************************/
+/********************************  section two  *************************************/
+.patern-one{
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: -4rem;
+}
+.col-style{
+    position: relative;
+}
+.patern-two{
+    margin-top: -3rem;
+    margin-left: -3rem;
+    position: absolute;
+}
+/********************************  section two  *************************************/
+/********************************  section three  *************************************/
+.join-title{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.join-text{
+    color: var(--darkgray);
+}
+.mb-join-style{
+    margin-bottom: 3rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/********************************  section three  *************************************/
+/********************************  section four  *************************************/
+.team-image{
+    border-radius: 5px;
+    filter: grayscale(1);
+}
+.swiper-slide.swiper-slide-active img{
+    filter:none;
+}
+
+/********************************  section four  *************************************/
+/********************************  section five  *************************************/
+.apply-btn{
+    background: var(--blue);
+    border: 2px solid var(--blue);
+}
+.apply-btn:hover{
+    background: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    transition: 0.3s;
+}
+.job-title{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.job-text{
+    color: var(--darkgray);
+}
+.card{
+    height: 100%;
+}
+
+/********************************  section five  *************************************/
+/********************************   responsive  *************************************/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    #order-res-one{
+        order: 1;
+        margin-bottom: 1rem;
+    }
+    #order-res-two{
+        order: 2;
+    }
+    .d-mode{
+        display: none;
+    }
+    .career-image-one {
+        margin-top: -2rem;
+    }
+    .section-one{
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+/********************************   responsive  *************************************/

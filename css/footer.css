@@ -1,0 +1,125 @@
+/**{*/
+/*    font-family: Bariol;*/
+/*}*/
+.footer-bg{
+    background-color: var(--darkblue);
+}
+.btnFooter {
+    font-size: 18px;
+    background: var(--blue);
+    border: 2px solid var(--blue);
+    transition: 0.3s;
+    box-shadow: none;
+}
+.btnFooter:hover ,.btnFooter:active  ,.btnFooter:focus    {
+    background: var(--darkblue);
+    border-color: var(--blue);
+    transition: 0.3s;
+    box-shadow: none;
+    outline: none;
+}
+.listStyle {
+    background: transparent;
+    border: none;
+}
+.titleFooter {
+    color: var(--blue);
+    font-family: 'BariolBold';
+}
+.footerLink {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.footerLink:hover {
+    color: var(--blue);
+    transition: 0.2s;
+}
+/*<!-- ============================================  download popup ============================================  -->*/
+.download-app-popup{
+    background: var(--darkblue);
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+}
+.install-app{
+    background: var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: none;
+    outline: none;
+}
+.install-app:hover,.install-app:focus{
+    background: transparent;
+    border: 2px solid var(--blue);
+    outline: none;
+    box-shadow: none;
+}
+.font-image{
+    font-size: 2rem;
+    color: var(--blue);
+}
+/*button scroll */
+#back2Top {
+    width: 32px;
+    height: 32px;
+    line-height: 22px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: fixed;
+    bottom: 4%;
+    right: 6%;
+    background-color: #2EC8E8;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    z-index: 99999;
+}
+
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+#back2Top img {
+    margin-top: 13%;
+}
+.modal{
+    z-index:999999999999 ;
+}
+/*<!-- ============================================  download popup ============================================  -->*/
+
+/* responsive mode ****************************************  */
+@media only screen and (min-width: 320px) and (max-width: 567px){
+    .responsive-ul {
+        margin-left: -2rem;
+    }
+    .text-pb-style{
+        padding-bottom: 5rem;
+    }
+    #back2Top img {
+        margin-top: 7px !important;
+    }
+    #back2Top{
+        bottom: 12%;
+        right: 25% !important;
+        z-index: 99;
+    }
+    .intercom-lightweight-app-launcher{
+        bottom: 12% !important;
+        z-index: 99;
+    }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px){
+    .responsive-ul{
+        margin-left: -2rem;
+    }
+}

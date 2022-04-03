@@ -1,0 +1,105 @@
+*{
+    font-family: Bariol;
+}
+html {
+    margin: 0px !important;
+}
+.peyk-learn-maxHeight{
+    height: 100vh;
+}
+.header-form-pageLearn div{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #4BD3EF;
+    background-color: #4BD3EF;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.header-form-pageLearn h2{
+    color: #29455B;
+    font-size: 24px;
+}
+.body-form-pageLearn{
+    width: 400px;
+}
+.body-form-pageLearn p{
+color: #29455B;
+}
+.learn-btn-next{
+    border: 1px solid #4BD3EF !important;
+    width: 100%;
+    background-color: #4BD3EF !important;
+    color: #fff !important;
+}
+.btn.focus, .btn:focus {
+    box-shadow: unset !important;
+}
+.peyk-learn-rightSide{
+    background-position: center;
+    background-size: cover;
+}
+
+.peyk-learn-picStyle{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-left: 14px solid #21C4F5;
+}
+
+.learn-btn-prev{
+    background-color: #29455B !important;
+    border: 1px solid #29455B  !important;
+    width: 100%;
+    color: #fff !important;
+
+}
+
+.peyk-learn-equipment{
+    width: 75px;
+    height: 75px;
+
+}
+.peyk-learn-scrolling{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 99vh;
+}
+
+.peyk-learn-pic1{
+    background-image: url("../image/learn/peyk-learn-pic1.jpeg");
+}
+.peyk-learn-pic2{
+    background-image: url("../image/learn/peyk-learn-pic2.jpeg");
+}
+.peyk-learn-pic3{
+    background-image: url("../image/learn/peyk-learn-pic3.jpeg");
+}
+.peyk-learn-pic4{
+    background-image: url("../image/learn/peyk-learn-pic4.jpeg");
+}
+.peyk-learn-pic5{
+    background-image: url("../image/learn/peyk-learn-pic5.jpeg");
+}
+.peyk-learn-pic6{
+    background-image: url("../image/learn/peyk-learn-pic6.jpeg");
+}
+.peyk-learn-pic7{
+    background-image: url("../image/learn/peyk-learn-pic7.jpeg");
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+    .body-form-pageLearn {
+        width: unset;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .body-form-pageLearn {
+        width: 300px;
+    }
+}
+.mt-style{
+    margin-top: 24rem;
+}

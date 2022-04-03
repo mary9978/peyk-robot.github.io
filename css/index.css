@@ -1,0 +1,940 @@
+
+/*  *************** section one ****************************  */
+.section-one {
+    background-image: linear-gradient(#81f5ff, #2EC8E8);
+}
+.cnv {
+    width: 100%;
+    height: auto;
+    transform: skewY(
+            -7deg
+    );
+    transform-origin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    --gradient-color-3: #1b6d7e;
+    --gradient-color-2: #2EC8E8;
+    --gradient-color-1: #81f5ff;
+    --gradient-color-4: #2EC8E8;
+}
+.col-gif {
+    background:#ffffffb3;
+    padding: 25px;
+    border-radius: 12px 3px 0px 12px;
+    width: 70%;
+    height: auto;
+    display: table;
+    margin-left: auto;
+    position: relative;
+}
+#gradient-canvas {
+    width: 100%;
+    height: auto;
+    --gradient-color-3: #1b6d7e;
+    --gradient-color-2: #2EC8E8;
+    --gradient-color-1: #81f5ff;
+    --gradient-color-4: #2EC8E8;
+}
+
+.btn-start-style {
+    background-color: var(--darkblue);
+    border: 2px solid  var(--darkblue);
+}
+
+.btn-start-style:hover, .btn-start-style:focus, .btn-start-style:active {
+   background-color: transparent;
+    border: 2px solid  var(--darkblue);
+    box-shadow: none;
+    outline: none;
+}
+
+.row-style {
+    padding-top: 10rem;
+}
+
+.section-one-desc {
+    font-size: 18px;
+}
+.row-width{
+    width: 103%;
+    height: auto;
+}
+.order-two-style{
+    z-index: 99;
+}
+.style-res-title {
+    font-family:BariolBold;
+}
+/*  *************** section one ****************************  */
+/*  *************** section two ****************************  */
+.section-two {
+    background-image: url('../image/index/intersection.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E9F6FE;
+}
+
+.ul-section-two {
+    padding: 1rem;
+}
+
+.ul-section-two li {
+    color: var(--darkgray);
+}
+
+.ul-section-two li::marker {
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.ul-vehicle {
+    padding: 1rem;
+}
+
+.ul-vehicle li {
+    color: var(--darkblue);
+}
+
+.ul-vehicle li::marker {
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.nav-tabs .nav-link {
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.card-sectin-two {
+    box-shadow: 0px 3px 12px #57575712;
+    border: 1px solid #E8E8E8;
+    border-radius: 14px;
+}
+
+.btn-section-two {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    color: white !important;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-section-two:hover, .btn-section-two:focus, .btn-section-two:active {
+    background: white;
+    border: 2px solid var(--blue);
+    color: var(--blue) !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.section-two-p {
+    color: var(--darkgray);
+    line-height: 29.5px;
+}
+
+.input-style-section-two:focus {
+    border-color: #cdd4da;
+}
+
+.input-style-section-two {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-left: 0px;
+    border-radius: 0px 6px 6px 0px !important;
+}
+
+span#addon-wrapping {
+    background: white;
+    border-right: 0px;
+    margin-top: 0px;
+}
+span#addon-wrapping-one {
+    background: white;
+    border-right: 0px;
+    margin-top: 0px;
+}
+
+label.floating-label {
+    margin-left: 4rem !important;
+}
+
+.input-style-section-two:focus label.floating-label {
+    top: 1rem;
+
+}
+
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+    top: -0.3rem;
+    background: white;
+    opacity: 1;
+    z-index: 99;
+    padding: 0;
+    height: 15px !important;
+}
+
+i.far.fa-times-circle {
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 40%;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#floatingInput-pick-up:invalid ~ #pick-up {
+    display: none;
+}
+
+#floatingInput-drop-off:not(:valid) ~ #drop-off {
+    display: none;
+}
+
+.peyk-form-input-hidden {
+    display: none;
+}
+.pac-target-input {
+    padding: 1rem 2rem 1rem 0px !important;
+}
+/*  *************** section two ****************************  */
+/*  *************** section three / section three / Why Peyk? ****************************  */
+.section-why-peyk {
+    background-color: var(--lightblue);
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -5px;
+}
+.swiper-container.swiper-five {
+    padding: 45px 0px;
+}
+/*  *************** section three / section three / Why Peyk? ****************************  */
+/*  *************** section four / Want to become a courier driver? ****************************  */
+
+.card-sectin-peyk {
+    box-shadow: 2px 6px 17px #c8c8c829;
+    border: 1px solid #F2F2F2;
+    border-radius: 38px;
+    height: 100%;
+}
+
+.card-sectin-peyk img {
+    width: 250px;
+    height: auto;
+}
+
+.card-text-sectin-peyk {
+    color: var(--darkblue);
+    font-family: BariolBold;
+    font-size: 20px;
+}
+
+.card-what-need {
+    box-shadow: 2px 6px 17px #C8C8C829;
+    border: 1px solid #F2F2F2;
+    border-radius: 38px;
+}
+
+.card-need-title {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+.card-need-span {
+    color: var(--blue) !important;
+    font-family: BariolBold !important;
+}
+
+.card-need-p {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+.ul-need {
+    font-size: 18px;
+    color: var(--darkblue);
+    list-style: circle inside;
+}
+
+.ul-need ::marker {
+    font-size: 25px !important;
+    color: var(--blue) !important;
+}
+
+.btn-outline-style {
+    color: var(--darkblue);
+    border: 2px solid var(--darkblue);
+    font-size: 17px;
+}
+
+.btn-outline-style:hover {
+    background-color: var(--darkblue);
+    border-color:  var(--darkblue);
+}
+
+.btn-first {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    color: white !important;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-first:hover, .btn-first:active, .btn-first:focus {
+    background: white;
+    border: 2px solid var(--blue);
+    color: var(--blue) !important;
+    outline: none;
+}
+
+.nav-link {
+    color: var(--darkblue);
+    font-size: 20px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--darkblue);
+}
+
+.tab-pane.fade {
+    transition: all 0.2s;
+    transform: translateY(1rem);
+}
+
+.tab-pane.fade.show {
+    transform: translateY(0rem);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--darkblue);
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid var(--blue);
+    font-size: 17px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    color: var(--darkblue);
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid var(--blue);
+}
+.nav-tabs {
+    border-bottom: 1px solid var(--lightblue);
+}
+/*  *************** section four / Want to become a courier driver? ****************************  */
+/*  *************** section five / Want to become a courier driver? ****************************  */
+.section_five {
+    background-color: var(--blue);
+}
+
+.img-width {
+    width: 500px;
+    height: auto;
+}
+
+.section_five_desc {
+    color: var(--darkblue);
+    font-size: 30px;
+}
+
+.become_peyker_btn {
+    font-family: BariolBold;
+    background: var(--darkblue);
+    padding: 9px 50px;
+    box-shadow: none !important;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid var(--darkblue);
+}
+
+.become_peyker_btn:hover {
+    background: var(--blue);
+    border: 2px solid var(--darkblue);
+}
+
+/*  *************** section five / Want to become a courier driver? ****************************  */
+/*  *************** section six / What Our Customer Have To Say  ****************************  */
+.section-six-bg {
+    background-image: url('../image/index/bg-six.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section_six_card {
+    height: 100%;
+    box-shadow: 4px 3px 15px var(--lightgray);
+    border: 1px solid var(--lightgray);
+    border-radius: 22px;
+}
+
+img.section_six_img {
+    width: 25px !important;
+    height: auto;
+    margin-right: 10px;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--blue);
+    width: 30px;
+    height: 10px !important;
+    border-radius: 10px;
+}
+
+.section_six_card_text {
+    text-align: left;
+    color: var(--darkgray);
+}
+
+.section_six_card_title {
+    text-align: left;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+}
+
+/*  *************** section six / What Our Customer Have To Say  ****************************  */
+/*  *************** section seven / Collaboration with  ****************************  */
+.swiper-button-disabled {
+    background: var(--darkblue) !important;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.swiper-button {
+    background: var(--darkblue);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    right: auto !important;
+    left: 50px !important;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    left: 8rem;
+    right: auto !important;
+}
+
+.swiper-button-prev:after {
+    color: white;
+    font-size: 25px !important;
+    font-weight: bolder;
+}
+
+.swiper-button-next:after {
+    color: white !important;
+    font-size: 25px !important;
+    font-weight: bolder;
+}
+
+.section-seven {
+    background-image: url("../image/index/background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    margin-top: 3rem;
+    top: unset;
+}
+
+.overlay {
+
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: #ffffffd1;
+    overflow: hidden;
+    width: 94%;
+    height: 33px;
+    transition: .5s ease;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container1:hover .overlay {
+    height: 98%;
+}
+
+.container1:hover .text1 {
+    top: 7%;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #29455B;
+    font-weight: bold;
+    font-family: BariolBold;
+}
+
+.p2-hover {
+    color: #818181;
+    font-size: 18px;
+    text-align: left;
+    height: 135px;
+}
+
+.txt2 {
+    display: none;
+}
+
+.responsivetxt {
+    display: none;
+}
+
+.container1:hover .txt2 {
+    display: block;
+    margin-top: 30%;
+    padding: 0px 1em;
+}
+
+.container1:hover .responsivetxt {
+    display: block;
+    margin-top: 30%;
+    padding: 0px 1em;
+}
+
+.container1:hover .responsivetxt {
+    display: block;
+    margin-top: 30%;
+    padding: 0px 1em;
+}
+
+.p1-hover {
+    color: var(--darkblue);
+    font-weight: bold;
+    font-family: BariolBold;
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+
+.p2.hover {
+
+    color: #818181;
+    font-weight: bold;
+
+}
+
+.a-hover {
+    color: var(--blue);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.a-hover:hover {
+    color: var(--darkblue);
+    text-decoration: none;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 95%;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background-color: #ffffffd1;
+    overflow: hidden;
+    width: 94%;
+    height: 33px;
+    transition: .5s ease;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container2:hover .overlay {
+    height: 100%;
+}
+
+.container2:hover .text1 {
+    top: 7%;
+}
+
+.text1 {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--darkblue);
+    font-weight: bold;
+}
+
+.container2:hover .txt2 {
+    display: block;
+    margin-top: 30%;
+    padding: 0px 1em;
+}
+
+.container2:hover .responsivetxt {
+    display: block;
+    margin-top: 30%;
+    padding: 0px 1em;
+}
+
+.p3-hover {
+
+    color: var(--darkblue);
+    font-weight: bold;
+}
+
+/* input-style */
+.circle-style {
+    position: absolute;
+    margin-top: -2.3em;
+    left: 2.5em;
+}
+
+.form-group {
+    padding: 0px 1rem;
+}
+
+
+.image-form {
+    border-radius: 6px;
+    padding: 0.6em 14.5%;
+    background: #E9F6FE;
+    margin-right: 1%;
+}
+
+
+/*  *************** section eight / Collaboration with  ****************************  */
+/*  *************** section eight / Collaboration with  ****************************  */
+.section-pass {
+    background-image: url('../image/index/background-pass.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.pass-img {
+    width: 310px;
+    height: auto;
+}
+
+.title-pass {
+    font-family: 'BariolBold';
+    color: var(--darkbluepass);
+}
+
+.pass-text {
+    color: var(--darkbluepass);
+    font-size: 20px;
+    text-align: justify;
+}
+.btn-pass, .btn-pass:hover, .btn-pass:focus {
+    background: #00B7C2;
+    border: none;
+    border-radius: 20px;
+    padding: 9px;
+}
+/*  *************** section eight / Collaboration with  ****************************  */
+/*  *************** section ten / We are in the News ****************************  */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: auto !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-card {
+    box-shadow: 0px 0px 6px #46464629;
+    border-radius: 24px;
+    border: 1px solid transparent;
+}
+span#addon-wrapping:focus{
+    border-color:var(--darkgray) ;
+}
+span#addon-wrapping-one:focus{
+    border-color:var(--darkgray) ;
+}
+/*  *************** section ten / We are in the News ****************************  */
+.section-help-bg {
+    background-color: var(--gray);
+}
+
+.card-section {
+    height: 100%;
+    box-shadow: 0px 2px 10px var(--lightgray);
+    border-radius: 20px;
+}
+
+.title-section {
+    font-family: BariolBold;
+    color: var(--darkblue);
+}
+
+.description-section-ten {
+    color: var(--darkgray);
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.card-img-top {
+    width: 100px;
+    height: auto;
+    display: table;
+    margin: -39px auto 0px;
+}
+
+.link-section-ten {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.link-section-ten:hover {
+    color: var(--darkblue);
+    transition: 0.2s;
+}
+
+/*  *************** section ten / We are here to help ****************************  */
+/*  *************** responsive  ****************************  */
+@media only screen and (min-width: 320px) and (max-width: 567px) {
+    .pass-text {
+        padding: 0px 10px !important;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        margin-top: 0rem;
+    }
+
+    .swiper-seven {
+        margin-top: 2rem;
+    }
+
+    .order-two {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .order-one {
+        order: 1;
+    }
+
+    .img-width {
+        width: 300px;
+        height: auto;
+    }
+    .card-what-need{
+        padding: 1rem !important;
+    }
+    .ul-need{
+        padding: 0rem !important;
+    }
+    .btn-first,.btn-outline-style{
+        font-size: 14px !important;
+    }
+    .order-two-style{
+        order: 2;
+        margin-top: 20px !important;
+    }
+    .order-one-style{
+        order: 1;
+    }
+    .row-style {
+        padding-top: 5rem;
+    }
+    .style-res-title{
+        font-size: 25px !important;
+    }
+    .section-one-desc {
+        font-size: 18px !important;
+    }
+    .floating-label {
+        font-size: 13px;
+    }
+    .pass-img{
+        margin-top:2rem !important;
+    }
+    .col-gif{
+        padding: 10px;
+    }
+    .button-margin-style{
+        margin-top: 1rem;
+    }
+    .image1{
+        width: 80% !important;
+        height: auto;
+        display: table;
+        margin: auto;
+    }
+    .overlay{
+        width: 80% !important;
+        /*height: auto;*/
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+    .container1:hover .responsivetxt {
+        margin-top: 15%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        margin-top: 0rem;
+    }
+
+    .swiper-seven {
+        margin-top: 2rem;
+    }
+
+    .img-width {
+        width: 265px;
+        height: auto;
+    }
+
+    .become_peyker_btn {
+        margin-top: 1rem !important;
+    }
+
+    .section_five_desc {
+        font-size: 22px;
+    }
+
+    .title-section {
+        font-size: 20px;
+    }
+    .order-two {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .order-one {
+        order: 1;
+    }
+    .order-two-style{
+        order: 2;
+    }
+    .order-one-style{
+        order: 1;
+    }
+    .row-style {
+        padding-top: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #gradient-canvas{
+        min-height: 10px !important;
+    }
+    .container1:hover .responsivetxt {
+        display: block;
+        margin-top: 10%;
+    }
+
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+        right: auto !important;
+        left: 30px !important;
+    }
+
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+        left: 7rem;
+        right: auto !important;
+    }
+
+    .img-width {
+        width: 320px;
+        height: auto;
+    }
+    .card-what-need{
+        padding: 5px !important;
+    }
+    .btn-first,.btn-outline-style{
+        font-size: 14px !important;
+    }
+    .ul-need{
+        padding: 0px !important;
+    }
+    .tab-padding-style {
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+    .container1:hover .responsivetxt {
+        margin-top: 0% !important;
+    }
+
+    .p1-hover {
+        font-size: 17px;
+    }
+
+    .container1:hover .txt2 {
+        margin-top: 17%;
+    }
+
+    .p2-hover {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1590px) {
+    .container1:hover .responsivetxt {
+        margin-top: 15%;
+    }
+}
+
+/*  *************** responsive  ****************************  */

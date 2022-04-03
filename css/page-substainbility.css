@@ -1,0 +1,39 @@
+#section-two{
+    background-color: #29455B;
+    position: absolute;
+}
+.img-section-two{
+    position: relative;
+    bottom: 20%;
+}
+/*section help style*/
+.img-support{
+    width: 100px;
+    display: table;
+    margin: -39px 0 auto;
+}
+.styled-card-section-help{
+    box-shadow: 2px 2px 2px 2px #cbc7c7;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.card-text{
+    font-family: Bariol,sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Bariol,sans-serif;
+}
+.link-help-section{
+    text-decoration: none;
+    color: #0dcaf0;
+    text-align: center;
+}
+/*section help end*/

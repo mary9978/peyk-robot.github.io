@@ -1,0 +1,198 @@
+/***************************** section Feel the Speed **************************/
+.section-one-peer {
+    background-image: url("../image/shareimage/backgroundimage.png");
+    background-size: cover;
+}
+
+.title-style {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.ul-vehicle{
+    padding: 0px 1.5rem;
+}
+.ul-vehicle li div{
+    color: var(--darkblue) !important;
+}
+.section-one-p {
+    font-size: 20px;
+    color: var(--darkgray);
+}
+
+.download-p {
+    font-size: 20px;
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+/***************************** section Feel the Speed **************************/
+/***************************** section two **************************/
+.section-two {
+    background-color: var(--blue);
+}
+
+.text-font-size {
+    font-size: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: left;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-height {
+    height: 100% !important;
+}
+
+/***************************** section two **************************/
+/***************************** section three **************************/
+.peyk-form-input-hidden {
+    display: none;
+}
+
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+    top: -0.3rem;
+    background: white;
+    opacity: 1;
+    z-index: 99;
+    padding: 0px;
+    height: 15px !important;
+}
+
+label.floating-label {
+    margin-left: 4rem !important;
+}
+
+.input-group-text {
+    background: white;
+    border-right: 0px !important;
+    border: 1px solid var(--darkgray) !important;
+}
+
+.pac-target-input {
+    box-shadow: none !important;
+    border: 1px solid var(--darkgray) !important;
+}
+
+input#floatingInput-pick-up, input#floatingInput-drop-off {
+    border-left: 0px !important;
+}
+
+i.far.fa-times-circle {
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 40%;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#map {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid var(--darkgray);
+}
+
+.btn-calculate {
+    background: var(--blue);
+    box-shadow: none !important;
+    outline: none !important;
+    border: 2px solid var(--blue);
+    font-size: 20px;
+}
+
+.btn-calculate:hover, .btn-calculate:focus, .btn-calculate:active {
+    background: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    transition: 0.3s ease;
+}
+
+.pac-target-input {
+    border-radius: 0px 5px 5px 0px;
+}
+.width-image{
+    width: 100%;
+}
+/***************************** section three **************************/
+/***************************** section four **************************/
+.span-title {
+    color: var(--blue);
+    font-family: BariolBold;
+}
+
+.title-section-four {
+    color: var(--darkblue);
+}
+
+.desc-section {
+    color: var(--darkgray);
+}
+
+/***************************** section four **************************/
+/***************************** section five **************************/
+
+.section-five {
+    background-image: url('../image/peertopeer/pointsimage.png');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0px !important;
+}
+
+/***************************** section five **************************/
+/***************************** responsive **************************/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .section-one-style {
+        margin-top: 7rem;
+    }
+
+    .slide-img-width {
+        width: 260px;
+    }
+    .responsive-height{
+        min-height: auto !important;
+        padding: 3rem 0px;
+    }
+    .section-one-peer{
+        padding-top: 3rem;
+    }
+    .text-font-size {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slide-img-width {
+        width: 100%;
+    }
+}
+
+/***************************** responsive **************************/

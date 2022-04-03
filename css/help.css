@@ -1,0 +1,49 @@
+/*  *************** section ten / We are in the News ****************************  */
+.section-help-bg {
+    background-color: var(--gray);
+}
+
+.card-help {
+    height: 100%;
+    box-shadow: 0px 2px 10px var(--lightgray);
+    border-radius: 20px;
+}
+
+.title-help {
+    font-family: BariolBold;
+    color: var(--darkblue);
+}
+
+.description-section-help {
+    color: var(--darkgray);
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.card-img-top {
+    width: 100px;
+    display: table;
+    margin: -39px auto 0px;
+}
+
+.link-section-help {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.card-body.card-body-style{
+    margin: 0px !important;
+}
+.link-section-help:hover {
+    color: var(--darkblue);
+    transition: 0.2s;
+}
+
+/*  *************** section ten / We are here to help ****************************  */
+
+@media only screen and (min-width: 320px) and (max-width: 567px){
+    .card-help{
+        margin: 0px !important;
+    }
+}

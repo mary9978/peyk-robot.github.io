@@ -1,0 +1,82 @@
+* {
+    font-family: Bariol;
+}
+/* ***************************** section one ***************************************** */
+.container-all {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.title-single-career{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.peyk-careers-content p, .peyk-careers-content li {
+    color: var(--darkgray-menu);
+}
+.btn-apply{
+    background: var(--blue);
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--blue);
+}
+.btn-apply:hover,.btn-apply:focus{
+    background: transparent;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    box-shadow: none;
+}
+.peyk-page-input-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 2px solid #ccc !important;
+    outline: none !important;
+    border-radius: 5px;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    border:1px solid var(--darkgray);
+    outline: none;
+    width: 100%;
+    padding: 8px 0px 8px 45px;
+}
+input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date {
+    outline: none;
+    border: 1px solid var(--darkgray);
+    width: 100%;
+    padding: 8px 0px 8px 45px;
+}
+.wpcf7-form-control-wrap{
+    width: 100%;
+}
+
+span.peyk-page-icon {
+    background: var(--blue);
+    padding: 9px;
+    color: white;
+    position: absolute;
+    z-index: 99;
+}
+.btn-submit input {
+    background: var(--blue);
+    border: 2px solid var(--blue);
+}
+.btn-submit input:hover {
+    background: transparent;
+    border: 2px solid var(--blue);
+    box-shadow: none;
+    outline: none;
+    color: var(--blue);
+}
+.peyk-page-input {
+    color: var(--darkblue);
+    margin-top: 2.5rem;
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    position: absolute;
+    margin-top: 1rem;
+}

@@ -1,0 +1,248 @@
+* {
+    font-family: Bariol;
+}
+/* ***************************** section one ***************************************** */
+.section-one{
+    background-image: url("../image/shareimage/backgroundimage.png");
+    background-size: cover;
+    background-position: inherit;
+}
+.hieght-style{
+    height: 100%;
+}
+.title-section-one{
+    color: var(--darkblue);
+    font-family: BariolBold;
+    font-size: 3rem;
+}
+.title-span{
+    color: var(--blue);
+    font-family: BariolBold;
+}
+.title-section-two{
+    color: var(--darkblue);
+    font-family: BariolBold;
+    border-bottom: 3px solid #5e7a8f6b;
+}
+.section-two{
+    background-color: var(--lightblue);
+}
+.bg-style-section-two{
+    background-color: white;
+    transition: 0.3s ease;
+}
+.p-style{
+    color: var(--darkgray);
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+.bg-style-merchants:hover{
+    background-color: var(--lightblue);
+    transition: 0.3s ease;
+}
+.bg-style-merchants:hover .p-style{
+    color: var(--blue);
+    transition: 0.3s ease;
+}
+.btn-request-delivery{
+    background-color: var(--darkblue);
+    border: 2px solid var(--darkblue);
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-request-delivery:hover{
+    border: 2px solid var(--darkblue);
+    background-color: transparent;
+    color: var(--darkblue);
+    transition: 0.3s ease;
+}
+.btn-contact-sale{
+    border: 2px solid var(--darkblue);
+    color: var(--darkblue);
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-contact-sale:hover{
+    background-color: var(--darkblue);
+    color: white;
+    border: 2px solid var(--darkblue);
+}
+/* ***************************** section one ***************************************** */
+/* ***************************** section two ***************************************** */
+.title{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+/* ***************************** section two ***************************************** */
+/* ***************************** section four ***************************************** */
+.section-four {
+    background: var(--darkblue);
+}
+.slider-p{
+    font-size: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 10px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-style{
+    background-color: transparent;
+}
+.pagination-four{
+    bottom: -5px;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 5px;
+    background: var(--blue);
+}
+.swiper-slide.slide-style img{
+    filter: brightness(0.5);
+    transition: 0.3s ease;
+}
+.slide-style.swiper-slide-active img,.slide-style:hover img{
+    filter: none;
+    transition: 0.3s ease;
+}
+/* ***************************** section four ***************************************** */
+/* ***************************** section five ***************************************** */
+.partnership-p{
+    color: var(--darkblue);
+}
+/* ***************************** section five ***************************************** */
+/* ***************************** section seven ***************************************** */
+.slide-hover:hover{
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem var(--lightgray)!important;
+}
+.slide-hover img{
+    border-radius: 5px;
+    object-fit: contain !important;
+}
+/* ***************************** section seven ***************************************** */
+/* ***************************** section modal ***************************************** */
+.modal-header-style{
+    border-bottom: 0px;
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.title-modal{
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+.hr-style{
+    border: 2px solid var(--blue);
+    border-radius: 25px;
+    opacity: 1;
+}
+input.wpcf7-form-control:focus {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    color: var(--darkgray);
+}
+select#inputState{
+    appearance: auto;
+    color: var(--darkgray);
+}
+select#inputState:focus{
+    box-shadow: none;
+}
+#sbmit {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--blue);
+    color: white;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+}
+#sbmit:hover{
+    color: var(--blue);
+    background-color: transparent;
+    border: 2px solid var(--blue);
+}
+.divcustomlbl{
+    display: flex;
+    align-items: baseline;
+}
+.cstomlbl {
+    margin-left: 11px;
+    color: var(--darkblue);
+}
+.cstomlbl a{
+    color: var(--blue);
+    text-decoration: none;
+}
+.modal{
+   z-index: 9999;
+}
+.width-image{
+    width: 70%;
+}
+.w-style{
+    width: 80%;
+}
+/* ***************************** section modal ***************************************** */
+/* ***************************** responsive ***************************************** */
+@media only screen and (min-width: 320px) and (max-width: 567px){
+    .title-section-one {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    #order-one{
+        order:2 ;
+    }
+    #order-two{
+        order:1 ;
+    }
+    .section-one{
+        padding-top: 10rem;
+    }
+    .image-size-store{
+        width: 150px;
+    }
+    .partnership-p{
+        text-align: center;
+    }
+    .slider-p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 568px) and (max-width: 767px){
+    #order-one{
+        order:2 ;
+    }
+    #order-two{
+        order:1 ;
+    }
+}
+/* ***************************** responsive ***************************************** */

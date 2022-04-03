@@ -1,0 +1,36 @@
+* {
+    font-family: Bariol;
+}
+/* ***************************** section one ***************************************** */
+.section-one{
+    background-image: url("../image/shareimage/backgroundimage.png");
+    background-size: cover;
+    background-position: center;
+}
+.first-title{
+    font-family: BariolBold;
+    color: var(--blue);
+    font-size: 7rem !important;
+    text-shadow: 0 0 13px #4cd3eeed;
+}
+.second-title{
+    color: var(--blue);
+    font-family: BariolBold;
+    font-size: 3rem !important;
+}
+.sub-title{
+    color: var(--darkblue);
+    font-size: 2rem !important;
+}
+
+/* ***************************** section one ***************************************** */
+/* ***************************** responsive ***************************************** */
+@media only screen and (min-width: 320px) and (max-width: 567px){
+    .padding-responsive{
+        padding-left: 2rem;
+    }
+    .section-one{
+        padding-top: 7rem;
+    }
+}
+/* ***************************** responsive ***************************************** */

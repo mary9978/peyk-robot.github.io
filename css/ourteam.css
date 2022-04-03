@@ -1,0 +1,271 @@
+* {
+    font-family: Bariol;
+}
+
+/* ***************************** section one ***************************************** */
+
+.border-our-team {
+    border-left: 1.5rem solid var(--lightblue);
+    padding-top: 12rem;
+}
+
+.our-team-title {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+.our-team-desc {
+    color: var(--darkgray);
+}
+
+.des-style-our-team {
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: white;
+
+}
+
+.margin-style {
+    margin-top: -5rem;
+}
+.width-style{
+    width: 90%;
+}
+/******************************** section one *******************************************/
+/********************************  section two  *******************************************/
+.container-style {
+    background-image: url("../image/ourteam/linepoint.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.connecting-line {
+    height: 2px;
+    background: var(--lightblue);
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 15px;
+    z-index: 0;
+}
+
+.tab-pane.fade {
+    transition: all 0.5s;
+    transform: translateY(1rem);
+}
+
+.btn-tab {
+    background: #d7d7d7 !important;
+    border-radius: 50% !important;
+    width: 25px !important;
+    height: 30px !important;
+    opacity: 1 !important;
+}
+
+.nav-our-team-style {
+    z-index: 99;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: var(--blue) !important;
+}
+
+.span-nav-style {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+#pills-tabContent {
+    height: 250px;
+}
+
+.tab-pane-our-team {
+    color: var(--darkgray);
+}
+
+/******************************** section two  *******************************************/
+/******************************** section three  *******************************************/
+.section-three {
+    background-image: url("../image/ourteam/bg.png");
+}
+
+.section-three-title {
+    color: var(--blue);
+    font-family: BariolBold;
+    font-size: 3rem;
+}
+
+.section-three-desc {
+    color: var(--blue);
+    font-size: 2rem;
+}
+
+/******************************** section three  *******************************************/
+/******************************** section four  *******************************************/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: left;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.title-style-our-team {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+.our-team-img {
+    border: 5px solid var(--lightblue);
+    border-radius: 5px;
+    filter: grayscale(1);
+}
+
+.our-team-name {
+    color: var(--darkblue);
+}
+
+.our-team-work {
+    color: var(--darkgray);
+}
+
+.swiper-slide.swiper-slide-active .our-team-img {
+    filter: none;
+    transition: 0.3s ease;
+}
+
+.our-team-img:hover {
+    filter: none;
+    transition: 0.3s ease;
+}
+
+.our-team-img {
+    /*width: 100%;*/
+    height: 300px;
+}
+
+/******************************** section four  *******************************************/
+/******************************** section five  *******************************************/
+.year-style {
+    color: var(--darkgray);
+}
+
+.title-data {
+    color: var(--darkblue);
+    font-family: BariolBold;
+}
+
+.desc-gallery {
+    color: var(--darkgray);
+}
+
+.img-small:hover {
+    cursor: pointer;
+}
+
+/******************************** section five  *******************************************/
+/******************************** section line  *******************************************/
+.circle {
+    width: 25px;
+    height: 25px;
+    margin: 4px -20px;
+    z-index: 9;
+}
+
+/******************************** section line  *******************************************/
+/******************************** section seven  *******************************************/
+.card-link,
+.card-link:hover {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.card-text {
+    color: var(--darkgray);
+}
+
+.card-text:hover {
+    color: var(--darkgray);
+}
+
+.card-title {
+    color: var(--darkblue) !important;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-hover {
+    transition: 0.3s ease;
+}
+
+.card-hover:hover {
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .20) !important;
+    transition: 0.3s ease;
+}
+
+/******************************** section seven  *******************************************/
+/********************************    responsive   *******************************************/
+@media only screen and (min-width: 320px) and (max-width: 567px) {
+    .des-style-our-team {
+        padding: 1rem !important;
+    }
+
+    .width-style {
+        width: 100% !important;
+    }
+
+    .margin-style {
+        margin-top: -0.5rem;
+    }
+
+    .section-three-title {
+        font-size: 2rem;
+    }
+
+    .section-three-desc {
+        font-size: 1rem;
+    }
+    .our-team-img{
+        width: 100%;
+        height: 240px;
+    }
+    .container-style{
+        background-image: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .margin-style {
+        margin-top: -1rem;
+    }
+}
+
+/********************************    responsive   *******************************************/

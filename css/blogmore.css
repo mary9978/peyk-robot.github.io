@@ -1,0 +1,55 @@
+* {
+    font-family: Bariol;
+}
+/* ***************************** section one ***************************************** */
+.Img_card {
+    height: 100%;
+    width: 100%;
+}
+section#News {
+    margin-top: 10rem;
+}
+.card-title {
+    color: var(--darkblue);
+    font-family: 'BariolBold';
+}
+.Read_More {
+    text-decoration: none;
+    color: var(--blue) !important;
+}
+.inpSearch {
+    box-shadow: 0 3px 6px #00000017;
+    border: 1px solid #EEEEEE;
+    opacity: 1;
+    position: relative !important;
+    padding:15px 30px;
+    font-size: 20px;
+    outline: none !important;
+}
+.inpSearch:focus {
+    box-shadow: 0 3px 6px #00000017;
+    border: 1px solid #EEEEEE;
+    opacity: 1;
+    position: relative !important;
+    padding:15px 30px;
+    font-size: 20px;
+    outline: none !important;
+}
+.btnSearch {
+    width: 40px;
+    height: 40px;
+    position: absolute !important;
+    background-color:var(--blue)!important;
+    border-color: var(--blue);
+    right: 10px;
+    top: 12px;
+    font-size: 17px;
+    z-index: 10 !important;
+}
+.listTop {
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #CCCCCC;
+    opacity: 1;
+}

@@ -1,0 +1,107 @@
+*{font-family: 'Bariol';}
+
+.btn-search {
+    color: var(--darkgray);
+    position: absolute;
+    right: 1%;
+    font-size: 18px;
+    background-color: var(--blue) !important;
+    opacity: 1;
+    z-index: 99 !important;
+}
+.input-search{
+    box-shadow: 0 3px 6px #00000017;
+    border: 1px solid #EEEEEE;
+    opacity: 1;
+    text-align: left;
+    font-size: 1.22rem;
+    letter-spacing: 0;
+    color: var(--darkgray);
+    padding: 15px;
+}
+.text-search-result{
+    text-align: left;
+    color: var(--darkblue);
+    opacity: 1;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+.search-figure{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 11px;
+    margin-bottom: 0px;
+}
+.search-title{
+    text-align: left;
+    color:var(--darkblue);
+    opacity: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
+.search-text{
+    text-align: justify;
+    font-size: 15px;
+    color: #9B9B9B;
+    opacity: 1;
+}
+.search_img{
+    border-radius: 50px;
+
+}
+.author_search_name ,.date_search{
+    text-align: left;
+    font-weight: bold;
+    color: #CCCCCC;
+    opacity: 1;
+}
+.read_more_search{
+    color: #2EC8E8 !important;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none !important
+}
+.btn-md {
+    border: 3px solid #2EC8E8;
+    opacity: 1;
+    width: 170px;
+    height: 51px;
+    font-size: large;
+    color: #2EC8E8;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.pt-style-search{
+    padding-top: 20%;
+}
+.input-search:focus{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 3px 6px #00000017;
+}
+/*responsive---------------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 567px){
+    .pt-style-search {
+        padding-top: 25%;
+    }
+    .btn-search{
+        right: 3%;
+    }
+    .text-search-result {
+        text-align: center;
+        font-size: 29px !important;
+    }
+    p.search-title {
+        margin-top: 10%;
+    }
+    .search_img{
+        width: 100% !important;
+    }
+    .class_search_padding{
+        padding: 0px !important;
+    }
+    .author_search_name, .date_search{
+        font-size: 15px;
+    }
+}
+/*responsive---------------------------------------------------------------------------------*/
